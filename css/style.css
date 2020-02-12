@@ -28,11 +28,14 @@ html, body {
 .header_image_wrapper_right img {
 	margin-top: 0px;
 }
-.img_wrap img:last-child {
-	margin: -.5px 0;
+.img_wrap div img:last-child {
+	margin-bottom: -1px;
 }
-.img_wrap_x img:last-child {
-	margin: -1.5px 0;
+.img_wrap_x div img:last-child {
+	margin-bottom: -1.5px;
+}
+.img_wrap_xy div img:last-child {
+	margin-bottom: -2px;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 370.98px) {
