@@ -23,10 +23,10 @@ html, body {
 	padding-bottom: 5px;
 }
 .header_player_wrapper img {
-	margin-top: 39px;
+	margin-top: 43px;
 }
 .header_image_wrapper_right img {
-	margin-top: -1px;
+	margin-top: 0px;
 }
 .img_wrap img:last-child {
 	margin: -.5px 0;
@@ -57,7 +57,7 @@ html, body {
 		padding-top: 5px;
 	}
 	.header_player_wrapper img {
-		margin-top: 13px;
+		margin-top: 18px;
 		width: 100%;
 	}
 	.header_player_wrapper audio {
@@ -74,7 +74,7 @@ html, body {
 		padding-top: 5px;
 	}
 	.header_player_wrapper img {
-		margin-top: 18.5px;
+		margin-top: 19.5px;
 		width: 100%;
 	}
 	.header_player_wrapper audio {
@@ -82,7 +82,7 @@ html, body {
 		margin-top: -5px;
 	}
 	.header_image_wrapper_right img {
-		margin-top: 1px;
+		margin-top: 0px;
 	}
 }
 /* Medium devices (tablets, 768px and up) */
@@ -91,7 +91,7 @@ html, body {
 		padding-top: 5px;
 	}
 	.header_player_wrapper img {
-		margin-top: 25px;
+		margin-top: 27px;
 		width: 100%;
 	}
 	.header_player_wrapper audio {
@@ -109,7 +109,7 @@ html, body {
 		padding-top: 10px;
 	}
 	.header_player_wrapper img {
-		margin-top: 33px;
+		margin-top: 35px;
 		width: 100%;
 	}
 	.header_player_wrapper audio {
