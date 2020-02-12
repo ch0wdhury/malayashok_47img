@@ -10,7 +10,7 @@ html, body {
 	background: #333333;
 }
 .top_space {
-	padding-top: 15px;
+	padding-top: 0px;
 	background: #000000;
 }
 .header_player_wrapper {
@@ -19,7 +19,7 @@ html, body {
 .header_player_wrapper audio {
 	position: absolute;
 	width: 96%;
-	margin-top: -15px;
+	margin-top: 0px;
 	padding-bottom: 5px;
 }
 .header_player_wrapper img {
