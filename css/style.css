@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	overflow-x: hidden;
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0;
+	background: #333333;
+}
+.top_space {
+	padding-top: 15px;
+	background: #000000;
+}
+.header_player_wrapper {
+	position: relative;
+}
+.header_player_wrapper audio {
+	position: absolute;
+	width: 96%;
+	margin-top: -15px;
+	padding-bottom: 5px;
+}
+.header_player_wrapper img {
+	margin-top: 39px;
+}
+.header_image_wrapper_right img {
+	margin-top: -1px;
+}
+.img_wrap img:last-child {
+	margin: -.5px 0;
+}
+.img_wrap_x img:last-child {
+	margin: -1.5px 0;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 370.98px) {
+	.top_space {
+		padding-top: 5px;
+	}
+	.header_player_wrapper img {
+		margin-top: 11px;
+		width: 100%;
+	}
+	.header_player_wrapper audio {
+		padding-bottom: 37px;
+		margin-top: -5px;
+	}
+	.header_image_wrapper_right img {
+		margin-top: -1px;
+	}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 371px) and (max-width: 575.98px) {
+	.top_space {
+		padding-top: 5px;
+	}
+	.header_player_wrapper img {
+		margin-top: 13px;
+		width: 100%;
+	}
+	.header_player_wrapper audio {
+		padding-bottom: 37px;
+		margin-top: -5px;
+	}
+	.header_image_wrapper_right img {
+		margin-top: 0px;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.top_space {
+		padding-top: 5px;
+	}
+	.header_player_wrapper img {
+		margin-top: 18.5px;
+		width: 100%;
+	}
+	.header_player_wrapper audio {
+		padding-bottom: 30px;
+		margin-top: -5px;
+	}
+	.header_image_wrapper_right img {
+		margin-top: 1px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.top_space {
+		padding-top: 5px;
+	}
+	.header_player_wrapper img {
+		margin-top: 25px;
+		width: 100%;
+	}
+	.header_player_wrapper audio {
+		padding-bottom: 20px;
+		margin-top: -5px;
+	}
+	.header_image_wrapper_right img {
+		margin-top: 0px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.top_space {
+		padding-top: 10px;
+	}
+	.header_player_wrapper img {
+		margin-top: 33px;
+		width: 100%;
+	}
+	.header_player_wrapper audio {
+		padding-bottom: 10px;
+		margin-top: -10px;
+	}
+	.header_image_wrapper_right img {
+		margin-top: 0px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
