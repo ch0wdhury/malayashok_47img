@@ -32,7 +32,7 @@ html, body {
 	background-color: #000000;
 }
 .img_wrap_t img {
-	margin-top: .5px;
+	padding-top: .5px;
 }
 .img_wrap div img:last-child {
 	margin-bottom: -1px;
