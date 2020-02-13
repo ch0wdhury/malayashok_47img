@@ -28,8 +28,15 @@ html, body {
 .header_image_wrapper_right img {
 	margin-top: 0px;
 }
+.bg {
+	background-color: #000000;
+}
+.img_wrap_t img {
+	margin-top: .5px;
+}
 .img_wrap div img:last-child {
 	margin-bottom: -1px;
+
 }
 .img_wrap_x div img:last-child {
 	margin-bottom: -1.5px;
